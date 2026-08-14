@@ -43,7 +43,7 @@ jobs:
           user = api.whoami()
           print(f"Authenticated to Hugging Face as: {user['name']}")
           result = api.upload_folder(
-              repo_id="JingHugging/MixSIARPy",
+              repo_id="jyang-research/MixSIARPy",
               repo_type="space",
               folder_path=".",
               commit_message="Deploy from GitHub Actions",

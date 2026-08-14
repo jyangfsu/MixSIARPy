@@ -72,6 +72,6 @@ tokens, and local datasets outside the Space repository/build context.
 
 The repository contains `.github/workflows/sync-to-huggingface.yml`. Add a
 GitHub repository secret named `HF_TOKEN` containing a fine-grained Hugging
-Face token with write access to `JingHugging/MixSIARPy`. Every push to the
+Face token with write access to `jyang-research/MixSIARPy`. Every push to the
 GitHub `main` branch will then mirror the repository to the Docker Space. The
 workflow can also be started manually from GitHub's Actions tab.
