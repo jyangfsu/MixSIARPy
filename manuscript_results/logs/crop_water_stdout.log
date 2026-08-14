@@ -1,0 +1,14 @@
+
+{
+  "python": "3.13.9",
+  "pymc": "5.28.3",
+  "arviz": "0.23.4",
+  "n_plants": 176,
+  "n_sources": 3,
+  "formula": "species * biomass + diversity",
+  "max_rhat": 1.01,
+  "min_ess_bulk": 179.0,
+  "min_ess_tail": 591.0,
+  "divergences": 0,
+  "sampling_seconds": 36288.2847664
+}

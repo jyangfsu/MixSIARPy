@@ -1,0 +1,25 @@
+Initializing NUTS using adapt_diag...
+C:\Users\Jing\anaconda3\Lib\site-packages\pytensor\link\c\cmodule.py:2986: UserWarning: PyTensor could not link to a BLAS installation. Operations that might benefit from BLAS will be severely degraded.
+This usually happens when PyTensor is installed via pip. We recommend it be installed via conda/mamba/pixi instead.
+Alternatively, you can use an experimental backend such as Numba or JAX that perform their own BLAS optimizations, by setting `pytensor.config.mode == 'NUMBA'` or passing `mode='NUMBA'` when compiling a PyTensor function.
+For more options and details see https://pytensor.readthedocs.io/en/latest/troubleshooting.html#how-do-i-configure-test-my-blas-library
+  warnings.warn(
+WARNING (pytensor.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+Sequential sampling (4 chains in 1 job)
+NUTS: [src_mu, src_tau_diag, src_rho_0_0, src_rho_1_0, src_rho_2_0, p_global, ilr_beta, resid_prop]
++-----------------------------------------------------------------------------+
+|         |      |         | Step    | Grad    |         |          |         |
+| Progre¡­ | Draw | Diverg¡­ | size    | evals   | Speed   | Elapsed  | Remain¡­ |
+|---------+------+---------+---------+---------+---------+----------+---------|
+| ------- | 5000 | 0       | 0.011   | 511     | 1.95    | 2:42:11  | 0:00:00 |
+|         |      |         |         |         | s/draw  |          |         |
+| ------- | 5000 | 0       | 0.013   | 255     | 3.75    | 5:12:32  | 0:00:00 |
+|         |      |         |         |         | s/draw  |          |         |
+| ------- | 5000 | 0       | 0.011   | 511     | 5.55    | 7:42:41  | 0:00:00 |
+|         |      |         |         |         | s/draw  |          |         |
+| ------- | 5000 | 0       | 0.015   | 511     | 7.24    | 10:03:17 | 0:00:00 |
+|         |      |         |         |         | s/draw  |          |         |
++-----------------------------------------------------------------------------+
+Sampling 4 chains for 3_000 tune and 2_000 draw iterations (12_000 + 8_000 draws total) took 36199 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details

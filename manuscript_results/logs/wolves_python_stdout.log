@@ -1,0 +1,14 @@
+
+{
+  "python": "3.13.9",
+  "pymc": "5.28.3",
+  "arviz": "0.23.4",
+  "chains": 4,
+  "draws_per_chain": 2000,
+  "tune": 3000,
+  "target_accept": 0.99,
+  "max_rhat": 1.01,
+  "min_ess_bulk": 632.0,
+  "min_ess_tail": 586.0,
+  "divergences": 5
+}

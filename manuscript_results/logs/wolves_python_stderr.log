@@ -1,0 +1,23 @@
+Initializing NUTS using adapt_diag...
+C:\Users\Jing\anaconda3\Lib\site-packages\pytensor\link\c\cmodule.py:2986: UserWarning: PyTensor could not link to a BLAS installation. Operations that might benefit from BLAS will be severely degraded.
+This usually happens when PyTensor is installed via pip. We recommend it be installed via conda/mamba/pixi instead.
+Alternatively, you can use an experimental backend such as Numba or JAX that perform their own BLAS optimizations, by setting `pytensor.config.mode == 'NUMBA'` or passing `mode='NUMBA'` when compiling a PyTensor function.
+For more options and details see https://pytensor.readthedocs.io/en/latest/troubleshooting.html#how-do-i-configure-test-my-blas-library
+  warnings.warn(
+Sequential sampling (4 chains in 1 job)
+NUTS: [src_mu, src_tmp_x, p_global, fac1_sig, ilr_fac1, fac2_sig, ilr_fac2, resid_prop]
++-----------------------------------------------------------------------------+
+|         |      |         | Step    | Grad    |         |         |          |
+| Progre¡­ | Draw | Diverg¡­ | size    | evals   | Speed   | Elapsed | Remaini¡­ |
+|---------+------+---------+---------+---------+---------+---------+----------|
+| ------- | 5000 | 1       | 0.012   | 511     | 14.25   | 0:05:50 | 0:00:00  |
+|         |      |         |         |         | draws/s |         |          |
+| ------- | 5000 | 2       | 0.012   | 511     | 6.65    | 0:12:32 | 0:00:00  |
+|         |      |         |         |         | draws/s |         |          |
+| ------- | 5000 | 1       | 0.011   | 511     | 4.45    | 0:18:43 | 0:00:00  |
+|         |      |         |         |         | draws/s |         |          |
+| ------- | 5000 | 1       | 0.011   | 511     | 3.37    | 0:24:42 | 0:00:00  |
+|         |      |         |         |         | draws/s |         |          |
++-----------------------------------------------------------------------------+
+Sampling 4 chains for 3_000 tune and 2_000 draw iterations (12_000 + 8_000 draws total) took 1482 seconds.
+There were 5 divergences after tuning. Increase `target_accept` or reparameterize.

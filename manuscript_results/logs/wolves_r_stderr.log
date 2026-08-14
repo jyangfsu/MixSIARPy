@@ -1,0 +1,6 @@
+Warning message:
+package 'coda' was built under R version 4.4.3 
+module glm loaded
+Error in mcmc.list(x) : Arguments must be mcmc objects
+Calls: <Anonymous> -> as.mcmc.list.default -> mcmc.list
+Execution halted

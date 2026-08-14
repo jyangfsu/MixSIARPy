@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180">
+  <g transform="translate(8 8) scale(.64)">
+    <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123B4A"/><stop offset="1" stop-color="#087E78"/></linearGradient></defs>
+    <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#b)"/>
+    <path d="M128 38C111 64 87 88 87 117c0 24 18 43 41 43s41-19 41-43c0-29-24-53-41-79z" fill="#42CDBD"/>
+    <path d="M56 194 91 139l36 55z" fill="#F3B85B"/><path d="M129 194 165 139l35 55z" fill="#E46F61"/><path d="M92 194 128 139l36 55z" fill="#F8FAF8"/>
+    <circle cx="128" cy="116" r="10" fill="#F8FAF8"/>
+  </g>
+  <text x="195" y="86" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="67" font-weight="750" fill="#123B4A">MixSIAR<tspan fill="#0B8C84">Py</tspan></text>
+  <text x="198" y="128" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="2.3" fill="#61757B">BAYESIAN TRACER MIXING</text>
+</svg>
